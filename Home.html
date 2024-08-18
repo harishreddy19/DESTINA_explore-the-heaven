@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destina Video</title>
+    <style>
+        /* Ensure the video takes up the full screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Black background for contrast */
+        }
+
+        video {
+            max-width: 150%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+
+        /* Additional hover effects */
+        video:hover {
+            transform: scale(1.01); /* Slight zoom on hover */
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <video src="home-video.mp4"  autoplay></video>
+</body>
+</html>

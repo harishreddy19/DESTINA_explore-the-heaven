@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('login-page-bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.8; /* Adjust opacity here */
+    z-index: -1; /* Place behind content */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box {
+    border: 3px solid rgba(17, 4, 4, 0.5); /* More transparent */
+    padding: 40px;
+    border-radius: 70px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-box h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    background: rgb(222, 238, 245);
+    border: none;
+    border-bottom: 0px solid #333;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus ~ span,
+.input-box input:valid ~ span {
+    color: black;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 14px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    /* background: #333; */
+    transition: 0.3s;
+}
+
+.input-box input:focus ~ i {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #555;
+}
+
+.forgot-password {
+    margin-top: 20px;
+}
+
+.forgot-password a {    
+    color:yellow;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forgot-password a:hover {
+    color: blue;
+}

@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    animation: changeBackground 25s infinite;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.right a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.right a:active {
+    background-color: #0056b3;
+}
+
+.right a:last-child {
+    background-color: #ff6347; /* Tomato color for Signup button */
+    color: #fff;
+    border-radius: 20px;
+}
+
+.right a:last-child:hover {
+    background-color: #e5533c;
+}
+
+.right a:last-child:active {
+    background-color: #cc4932;
+}
+
+.right a:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007BFF;
+}
+
+/* Background Animation */
+@keyframes changeBackground {
+    0% { background-image: url('webpageimg/login-bg-3.jpg'); }
+    20% { background-image: url('webpageimg/goa.jpg'); }
+    40% { background-image: url('webpageimg/golden_temple.jpg'); }
+    60% { background-image: url('webpageimg/lake_1.jpg'); }
+    80% { background-image: url('webpageimg/login_bg.jpg'); }
+    100% { background-image: url('webpageimg/login-bg-2.jpg'); }
+} html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    animation: changeBackground 25s infinite;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 4px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 20px ;
+    margin: 0 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.right a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.right a:active {
+    background-color: #0056b3;
+}
+
+.right a:last-child {
+    background-color: #ff6347; /* Tomato color for Signup button */
+    color: #fff;
+    border-radius: 20px;
+}
+
+.right a:last-child:hover {
+    background-color: #e5533c;
+}
+
+.right a:last-child:active {
+    background-color: #cc4932;
+}
+
+.right a:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007BFF;
+}
+
+/* Background Animation */
+@keyframes changeBackground {
+    0% { background-image: url('webpageimg/login-bg-3.jpg'); }
+    20% { background-image: url('webpageimg/goa.jpg'); }
+    40% { background-image: url('webpageimg/golden_temple.jpg'); }
+    60% { background-image: url('webpageimg/lake_1.jpg'); }
+    80% { background-image: url('webpageimg/login_bg.jpg'); }
+    100% { background-image: url('webpageimg/login-bg-2.jpg'); }
+}
